@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*SITHUM [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/KazcylkO1Zr4FUneO0HQE8*`;
+            const sid = `*SITHUM [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/KazcylkO1Zr4FUneO0HQE8*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://files.fm/f/5p72jvhnx2",
+                url: "https://raw.githubusercontent.com/white15GHOST/Bot-helper/refs/heads/main/8597155b78c58d3c83491991010075b6.jpg?token=GHSAT0AAAAAADA22HH6BSB2B66ZJEUJYEYQZ64KUZQ",
               },
               caption: sid,
             });
